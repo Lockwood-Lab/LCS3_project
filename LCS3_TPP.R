@@ -1,14 +1,13 @@
 #### Analysis of Thermal proteome profiling data following Savitsky and Childs et al. (2018)
 #### Author: Alvin, version: Aug 13, 2018
 #### Uses TPP package version 3.9.3, all potential hits should have their melting curves manually inspected
-
 ### Download and install required packages 
-
 source("http://bioconductor.org/biocLite.R")
 
 #biocLite("TPP", dependencies=TRUE)
-
 library(TPP)
+citation("TPP")
+
 library(limma)
 library(plyr)
 library(dplyr)
